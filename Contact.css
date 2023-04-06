@@ -1,0 +1,170 @@
+/* Source Sans Pro  Font Family Link */
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap');
+
+/* Poppins  Font Family Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+ /* Navbar Design  Start */
+.navbar{
+    background-color: darkred;
+    width: 100%;
+    height: 80vh;
+}
+nav{
+    padding: 2% 5%;
+    display: flex;
+}
+nav .logo img{
+    width: 100%;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 12px 12px;
+}
+nav ul li a{
+    color: rgb(202, 197, 197);
+    font-size: 15px;
+}
+.contact{
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav .btn-lg{
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    padding: 12px 43px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+nav .btn-lg:hover{
+    color: darkred;
+}
+.text{
+    margin-top: 8em;
+    text-align: center;
+    color: white;
+}
+.text h2{
+    font-size: 2em;
+    line-height: 0.1;
+}
+.text h1{
+    font-size: 7em;
+}
+
+/* Form Design  */
+.flex{
+    display: flex;
+    text-align: left;
+    margin: 0 8em;
+    padding-top: 7%;
+}
+.left-side{
+    margin-top: 7%;
+}
+.left-side h1{
+    font-size: 50px;
+    color: darkred;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+.left-side h2{
+    font-size: 20px;
+    color: red;
+}
+.left-side i{
+    color: black;
+    padding-right: 10px;
+}
+.left-side h3{
+    margin-top: 90px;
+    font-size: 40px;
+    color: darkred;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.left-side h5{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.right-side{
+    margin-left: 15em;
+}
+.right-side input{
+    padding: 10px 20px;
+    width: 100%;
+    margin: 10px 0;
+}
+.right-side span{
+    color: darkred;
+}
+.right-side .btn-lg{
+    border-radius: 50px;
+    color: white;
+    background-color: darkorange;
+    padding: 12px 43px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.right-side .btn-lg:hover{
+    color: darkred;
+}
+/* Our Outlets  */
+
+.outlet{
+    padding: 0 5px;
+}
+.outlet img{
+    border-radius: 10px;
+}
+.outlet img:hover{
+    transform: scale(0.9);
+}
+.outlet i{
+    padding: 20px 0;
+    color: yellow;
+    font-size: 20px;
+    margin: 0 7em;
+}
+.outlet h5{
+    color: black;
+    font-size: 20px;
+    margin: 0 1em;
+}
+.outlet h3{
+    color: red;
+    font-size: 20px;
+    margin: 12px 3em;
+}
+
+/* Footer Section  */
+.footer{
+    background-color: darkred;
+    box-shadow: 10px 10px 50px #ccc;
+}
+nav h1{
+    color: white;
+    font-size: 1.2em;
+    margin-right: 23em;
+}

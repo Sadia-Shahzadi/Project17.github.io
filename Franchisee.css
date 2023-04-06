@@ -1,0 +1,243 @@
+/* Source Sans Pro  Font Family Link */
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap');
+
+/* Poppins  Font Family Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+ /* Navbar Design  Start */
+.navbar{
+    background-color: darkred;
+    width: 100%;
+    height: 80vh;
+}
+nav{
+    padding: 2% 5%;
+    display: flex;
+}
+nav .logo img{
+    width: 100%;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 12px 12px;
+}
+nav ul li a{
+    color: rgb(202, 197, 197);
+    font-size: 15px;
+}
+.franchisee{
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav .btn-lg{
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    padding: 12px 43px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+nav .btn-lg:hover{
+    color: darkred;
+}
+.text{
+    margin-top: 8em;
+    text-align: center;
+    color: white;
+}
+.text h2{
+    font-size: 2em;
+    line-height: 0.1;
+}
+.text h1{
+    font-size: 7em;
+}
+
+.heading{
+    padding: 7% 0;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.flex{
+    display: flex;
+    text-align: left;
+    margin: 0 8em;
+    padding-top: 7%;
+}
+.chooses{
+    padding: 0 40px;
+}
+.chooses img{
+    width: 110%;
+    margin-bottom: 50px;
+}
+.chooses img:hover{
+    transform: scale(1.1);
+}
+.chooses .btn-lg{
+   
+        border-radius: 50px;
+        color: white;
+        background-color: darkred;
+        padding: 12px 43px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    .chooses .btn-lg:hover{
+        background-color: orange;
+    }
+
+    /* Summary Deatils  */
+
+.header{
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://media.istockphoto.com/id/1154731746/photo/cheeseburger-with-cola-and-french-fries.jpg?b=1&s=170667a&w=0&k=20&c=hsfpgn6yt64YXV2wJkrXVmDjqf4RydB2CDCSQNiD7Go=);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: sticky;
+    margin-top: 40px;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    padding-top: 2em ;
+    font-size: 2.6em;
+    line-height: 1.0;
+    padding-bottom: 30px;
+}
+.header h4{
+    font-size: 2rem;
+}
+.header p{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 2em;
+}
+.div::after{
+    content: "";
+    display: inline-flexbox;
+    width: 100%;
+    padding: 4px;
+    background-color: darkred;
+}
+
+/* Delivery Info  */
+.choose{
+    padding: 0 4px;
+}
+.choose img:hover{
+    transform: scale(0.8);
+}
+.choose h1{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.choose p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.choose .btn-lg{
+    border-radius: 50px;
+    color: white;
+    background-color: darkred;
+    padding: 12px 43px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.choose .btn-lg:hover{
+    background-color: orange;
+}
+
+/* Our Journey  */
+
+.heading{
+    padding: 12% 0;
+    text-align: center;
+    background-color: #ccc;
+}
+.heading h2{
+    color: orange;
+    font-size: 30px;
+}
+.heading h1{
+    padding: 10px 0;
+    font-size: 40px;
+    line-height: 1.0;
+    color: black;
+}
+.flex{
+    display: flex;
+    text-align: left;
+    margin: 0 8em;
+    padding-top: 7%;
+}
+.details{
+    padding: 0 40px;
+}
+.details h1{
+    color: darkred;
+    padding-bottom: 30px;
+}
+
+/* Container Section  */
+
+.Container{
+    display: flex;
+    padding-top: 12em;
+    background-color: darkred;
+}
+.parts{
+    margin-left: 90px;
+    margin-top: 5em;
+    color: white;
+}
+.parts img{
+    width: 10%;
+    padding-bottom: 20px;
+}
+.parts h1{
+    font-size: 3rem;
+}
+.apps img{
+    width: 40%;
+    padding: 40px 10px;
+}
+.screen-image img{
+    width: 100%;
+    margin-left: 80px;
+}
+
+/* Footer Section  */
+.footer{
+    background-color: darkred;
+    box-shadow: 10px 10px 50px #ccc;
+}
+nav h1{
+    color: white;
+    font-size: 1.2em;
+    margin-right: 23em;
+}
